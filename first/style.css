@@ -1,0 +1,71 @@
+body {
+  margin:0;
+  font-family:sans-serif;
+}
+
+main {
+  width:95%;
+  margin:40px auto;
+}
+
+.row {
+  overflow:auto;
+  margin-top:40px;
+}
+
+.row.bottom {
+  background-color:red;
+}
+
+.box {
+  width:32%;
+  height:200px;
+  float:left;
+  margin-right:2%;
+}
+
+.box:nth-child(1) {
+  background-color:red;
+}
+
+.box:nth-child(2) {
+  background-color:dodgerblue;
+}
+
+.box:nth-child(3) {
+  background-color:grey;
+  margin-right:0;
+}
+
+.content {
+  font-size:24px;
+}
+
+.one-third {
+  width:calc(100%/3);
+  height:400px;
+  float:left;
+  background-color:red;
+}
+
+.two-thirds {
+  width:calc(100%/3*2);
+  float:left;
+  height:400px;
+  background-color:dodgerblue;
+}
+
+.three-fourths {
+  width:75%;
+  height:200px;
+  background-color:dodgerblue;
+  float:left;
+}
+
+.fourth-w-margin {
+  width:20%;
+  height:200px;
+  margin:0 2.5%;
+  background-color:grey;
+  float:left;
+}
